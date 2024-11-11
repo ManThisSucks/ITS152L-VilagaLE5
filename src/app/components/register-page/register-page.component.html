@@ -1,39 +1,50 @@
+<div class="main">
+<div class="register">
 <form 
     name="form" 
+    id="registerform"
     (ngSubmit)="onSubmit()" 
     #f="ngForm">
 
-    <label for="username">Username</label>
+    <label for="registerform">Register</label>
+
+    <!-- <label for="username">Username</label> -->
     <input 
         type="text" 
-        name="username" 
+        name="username"
+        placeholder="Username"
         [(ngModel)]="form.username" 
         required 
         #username="ngModel" />
 
-    <label for="password">Password</label>
+    <!-- <label for="password">Password</label> -->
     <input 
         type="password" 
         name="password" 
+        placeholder="Password" 
         [(ngModel)]="form.password" 
         required 
         #password="ngModel" />
 
-    <label for="firstName">First Name</label>
+    <!-- <label for="firstName">First Name</label> -->
     <input 
         type="text" 
         name="firstName" 
+        placeholder="First Name" 
         [(ngModel)]="form.firstName" 
         required 
         #firstName="ngModel" />
 
-    <label for="lastName">Last Name</label>
+    <!-- <label for="lastName">Last Name</label> -->
     <input 
         type="text" 
         name="lastName" 
+        placeholder="Last Name" 
         [(ngModel)]="form.lastName" 
         required 
         #lastName="ngModel" />
 
     <button>Submit</button>
 </form>
+</div>
+</div>
