@@ -39,16 +39,6 @@ h1{
 	transform: scale(.6);
 }
 
-#chk:checked ~ .login{
-	transform: translateY(-500px);
-}
-#chk:checked ~ .login label{
-	transform: scale(1);	
-}
-#chk:checked ~ .signup label{
-	transform: scale(.6);
-}
-
 a:link {
     color: #573b8a
 }

@@ -39,16 +39,6 @@ label{
 	transform: scale(.6);
 }
 
-#chk:checked ~ .login{
-	transform: translateY(-500px);
-}
-#chk:checked ~ .login label{
-	transform: scale(1);	
-}
-#chk:checked ~ .signup label{
-	transform: scale(.6);
-}
-
 h3 {
     color: #573b8a;
     font-size: 27px;
